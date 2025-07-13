@@ -497,10 +497,7 @@ export default function Home() {
                 Our Events
               </motion.h2>
 
-              <div
-                className="overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-                ref={scrollRef}
-              >
+              <div className="overflow-x-auto hide-scrollbar" ref={scrollRef}>
                 <motion.div
                   variants={containerVariants}
                   initial="hidden"
